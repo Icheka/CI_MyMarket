@@ -10,8 +10,9 @@ class Cart extends CI_Controller {
 
         header("Access-Control-Allow-Origin: *");
         header("Access-Control-Allow-Methods: *");
-        // header("Access-Control-Allow-Methods: GET, OPTIONS");
         header("Access-Control-Allow-Headers: Content-Type, Content-Length, Accept-Encoding");
+
+        // header("Access-Control-Allow-Methods: GET, OPTIONS");
     } 
 
     public function a() {
